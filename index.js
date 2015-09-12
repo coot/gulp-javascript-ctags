@@ -6,7 +6,6 @@ var generate = ctagsModule.require('./generate');
 var Parser = ctagsModule.require('./parser');
 var through = require('through2');
 var File = require('vinyl');
-var Progress = require('progress');
 
 module.exports = function(file) {
 

@@ -1,18 +1,9 @@
-
 {
   "name": "gulp-javascript-ctags",
   "version": "1.0.0",
   "description": "Write tags file using javascript-ctags",
   "license": "MIT",
-  "repositor": {
-    "type": "git",
-    "url": ""
-  },
-  "author": {
-    "name": "Marcin Szamotulski",
-    "email": "coot@riseup.net",
-    "url": "https://marcinszamotulski.me"
-  },
+  "author": "Marcin Szamotulski <coot@riseup.net> (https://marcinszamotulski.me)",
   "files": [
     "index.js"
   ],
@@ -20,7 +11,22 @@
     "ctags",
     "gulp"
   ],
-  "dependencies": [],
-  "devDependencies": [],
-  "homepage": ""
+  "dependencies": {
+    "javascript-ctags": "~0.1.1",
+    "through2": "~2.0.0",
+    "vinyl": "~0.5.3"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/coot/gulp-javascript-ctags#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coot/gulp-javascript-ctags.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coot/gulp-javascript-ctags/issues"
+  }
 }
